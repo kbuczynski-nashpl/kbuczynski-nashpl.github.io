@@ -26,17 +26,16 @@
               "./src/assets/css/style.min.css"
             ],
             "scripts": [
-	    	"../client/node_modules/jquery/dist/jquery.min.js"
-	    ]
+              "../client/node_modules/jquery/dist/jquery.min.js",
+	      "./node_modules/@fortawesome/fontawesome-free/js/all.js"
+            ]
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+              }],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
