@@ -62,8 +62,7 @@ body {
 }
 
 .profile-image {
-  height: 100vh;
-  max-height: 50vh;
+  max-width: 50%;
 }
 
 .btn-contact {
@@ -73,93 +72,23 @@ body {
   background-color: #278036;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+.bg-nav {
+  background-color: #e6e5e521 !important;
+  z-index: 1000;
+}
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .webkb_logo {
-    width: 15%;
-  }
-  .webkb_nav {
-    height: 10%;
-  }
-  .f-media-btn {
+@media (min-width: 320px) and (max-width: 480px) {
+  .profile-image {
     display: none;
   }
-  .my-auto {
-    top: 25vh;
-  }
   .page-content-one-background {
-    height: 340vh;
+    max-width: 100%;
   }
-  .btn-contact {
-    margin: 7%;
-    width: 100%;
+  .card-body {
+    padding: 0px !important;
   }
-  .profile-image {
-    max-height: 25vh;
-    margin: 25%;
+  .mobile-view {
+    font-size: 11px;
+    padding: 5% !important;
   }
-}
-
-/* Smartphones (landscape) ----------- */
-
-@media only screen and (min-width: 321px) {
-  /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-  /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-
-@media only screen and (min-width: 1224px) {
-  /* Styles */
-}
-
-/* Large screens ----------- */
-
-@media only screen and (min-width: 1824px) {
-  /* Styles */
-}
-
-/* iPhone 4 - 5s ----------- */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  /* Styles */
-}
-
-/* iPhone 6 ----------- */
-
-@media only screen and (max-device-width: 667px),
-only screen and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
-}
-
-/* iPhone 6+ ----------- */
-
-@media only screen and (min-device-width: 414px),
-only screen and (-webkit-device-pixel-ratio: 3) {
-  /*** You've spent way too much on a phone ***/
 }
