@@ -1,5 +1,70 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-index></app-index>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-content/index-content.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/index-content/index-content.component.html ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container col-12 col-md-12 page-content-one-background wrapper d-flex d-md-flex\">\n  <div class=\"p-2 row d-flex justify-content-center justify-content-md-center my-auto p-3\">\n    <div class=\"col col-md align-items-center align-items-md-center\">\n      <div class=\"card mx-auto w-75 my-auto\">\n        <div class=\"card-body\">\n          <div class=\"container col col-md mobile-view\">\n            <div class=\"row\">\n              <div class=\"col col-md profile-image\">\n                <img src=\"assets/images/kb_img.png\" atl=\"kb_img\" class=\"card-img-top img-fluid\" width=\"10%\">\n              </div>\n              <div class=\"col col-md\">\n                Hi! My name is Krzysztof Buczynski. I am a full stack developer. I graduated from Manchester Metropolitan University with\n                a 1st honours degree in Computer Science. I have over a few years of experience in a field. I have been part\n                of smaller and bigger project. I own a knowledge of HTML, CSS, JQuery, ES6, PHP, NodeJS, Angular/TypeScript,\n                Java, MySQL, Bootstrap, Unix OS and many more. Strong positive confident problem solver with leadership skills.\n              </div>\n              <div class=\"flex-column flex-md-column text-left mx-auto\">\n                <div class=\"p-2\">\n                  <a href=\"/\">\n                    <i class=\"fas fa-globe\"></i> VarKB.com\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"/\">\n                    <i class=\"fab fa-facebook\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"/\">\n                    <i class=\"fab fa-twitter\"></i> @NashPL\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"/\">\n                    <i class=\"fab fa-instagram\"></i> kbuczynski_nashpl\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"/\">\n                    <i class=\"fab fa-linkedin\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n              </div>\n            </div>\n            <div class=\"container p-3\">\n              <div class=\"row\">\n                <div class=\"col col-md\">\n                  <a href=\"\" class=\"btn-contact btn btn-success btn-sm col col-md\" type=\"button\">Get My CV</a>\n                </div>\n                <div class=\"col col-md\">\n                  <a href=\"\" class=\"btn-contact btn btn-success btn-sm col col-md\" type=\"button\">Send me an Email</a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-head-content/index-head-content.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/index-head-content/index-head-content.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container col-12 col-md-12 page-header-background wrapper d-flex d-md-flex\">\n  <div class=\"p-2 row d-flex justify-content-center justify-content-md-center my-auto p-3  mx-auto\">\n    <div class=\"col col-md align-items-center align-items-md-center\">\n      <h4>“A successful man is one who can lay a firm foundation with the bricks others have thrown at him.”</h4>\n      <h5> -David Brinkley</h5>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-head/index-head.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/index-head/index-head.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg container col-12 col-md-12 navbar-light\">\n  <a class=\"navbar-brand\" href=\"#\">\n    <img src=\" assets/images/webkb_logo.png \" alt=\"kb_img\" width=\"20%\">\n  </a>\n\n  <div class=\"collapse navbar-collapse justify-content-end\" id=\"navbarToggler\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"#\">\n          <i class=\"fab fa-facebook-f fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn\" href=\"# \">\n          <i class=\"fab fa-twitter fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"# \">\n          <i class=\"fab fa-instagram fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"# \">\n          <i class=\"fab fa-linkedin-in fa-2x \"></i>\n        </a>\n      </li>\n    </ul>\n  </div>\n</nav>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/index/index.component.html":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/index/index.component.html ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-index-head></app-index-head>\n<app-index-head-content></app-index-head-content>\n<app-index-content></app-index-content>\n");
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /*!**********************************************************!*\
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
@@ -11,7 +76,7 @@ function webpackEmptyAsyncContext(req) {
 	// Here Promise.resolve().then() is used instead of new Promise() to prevent
 	// uncaught exception popping up in devtools
 	return Promise.resolve().then(function() {
-		var e = new Error('Cannot find module "' + req + '".');
+		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	});
@@ -27,21 +92,12 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*!***********************************!*\
   !*** ./src/app/app.component.css ***!
   \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/app.component.html":
-/*!************************************!*\
-  !*** ./src/app/app.component.html ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\n      <h5 class=\"my-0 mr-md-auto font-weight-normal\">Company name</h5>\n      <nav class=\"my-2 my-md-0 mr-md-3\">\n        <a class=\"p-2 text-dark\" href=\"#\">Features</a>\n        <a class=\"p-2 text-dark\" href=\"#\">Enterprise</a>\n        <a class=\"p-2 text-dark\" href=\"#\">Support</a>\n        <a class=\"p-2 text-dark\" href=\"#\">Pricing</a>\n      </nav>\n      <a class=\"btn btn-outline-primary\" href=\"#\">Sign up</a>\n    </div>\n\n    <div class=\"pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center\">\n      <h1 class=\"display-4\">Pricing</h1>\n      <p class=\"lead\">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>\n    </div>\n\n    <div class=\"container\">\n      <div class=\"card-deck mb-3 text-center\">\n        <div class=\"card mb-4 box-shadow\">\n          <div class=\"card-header\">\n            <h4 class=\"my-0 font-weight-normal\">Free</h4>\n          </div>\n          <div class=\"card-body\">\n            <h1 class=\"card-title pricing-card-title\">$0 <small class=\"text-muted\">/ mo</small></h1>\n            <ul class=\"list-unstyled mt-3 mb-4\">\n              <li>10 users included</li>\n              <li>2 GB of storage</li>\n              <li>Email support</li>\n              <li>Help center access</li>\n            </ul>\n            <button type=\"button\" class=\"btn btn-lg btn-block btn-outline-primary\">Sign up for free</button>\n          </div>\n        </div>\n        <div class=\"card mb-4 box-shadow\">\n          <div class=\"card-header\">\n            <h4 class=\"my-0 font-weight-normal\">Pro</h4>\n          </div>\n          <div class=\"card-body\">\n            <h1 class=\"card-title pricing-card-title\">$15 <small class=\"text-muted\">/ mo</small></h1>\n            <ul class=\"list-unstyled mt-3 mb-4\">\n              <li>20 users included</li>\n              <li>10 GB of storage</li>\n              <li>Priority email support</li>\n              <li>Help center access</li>\n            </ul>\n            <button type=\"button\" class=\"btn btn-lg btn-block btn-primary\">Get started</button>\n          </div>\n        </div>\n        <div class=\"card mb-4 box-shadow\">\n          <div class=\"card-header\">\n            <h4 class=\"my-0 font-weight-normal\">Enterprise</h4>\n          </div>\n          <div class=\"card-body\">\n            <h1 class=\"card-title pricing-card-title\">$29 <small class=\"text-muted\">/ mo</small></h1>\n            <ul class=\"list-unstyled mt-3 mb-4\">\n              <li>30 users included</li>\n              <li>15 GB of storage</li>\n              <li>Phone and email support</li>\n              <li>Help center access</li>\n            </ul>\n            <button type=\"button\" class=\"btn btn-lg btn-block btn-primary\">Contact us</button>\n          </div>\n        </div>\n      </div>\n\n      <footer class=\"pt-4 my-md-5 pt-md-5 border-top\">\n        <div class=\"row\">\n          <div class=\"col-12 col-md\">\n            <img class=\"mb-2\" src=\"https://getbootstrap.com/assets/brand/bootstrap-solid.svg\" alt=\"\" width=\"24\" height=\"24\">\n            <small class=\"d-block mb-3 text-muted\">&copy; 2017-2018</small>\n          </div>\n          <div class=\"col-6 col-md\">\n            <h5>Features</h5>\n            <ul class=\"list-unstyled text-small\">\n              <li><a class=\"text-muted\" href=\"#\">Cool stuff</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Random feature</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Team feature</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Stuff for developers</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Another one</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Last time</a></li>\n            </ul>\n          </div>\n          <div class=\"col-6 col-md\">\n            <h5>Resources</h5>\n            <ul class=\"list-unstyled text-small\">\n              <li><a class=\"text-muted\" href=\"#\">Resource</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Resource name</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Another resource</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Final resource</a></li>\n            </ul>\n          </div>\n          <div class=\"col-6 col-md\">\n            <h5>About</h5>\n            <ul class=\"list-unstyled text-small\">\n              <li><a class=\"text-muted\" href=\"#\">Team</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Locations</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Privacy</a></li>\n              <li><a class=\"text-muted\" href=\"#\">Terms</a></li>\n            </ul>\n          </div>\n        </div>\n      </footer>\n    </div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -55,12 +111,15 @@ module.exports = "<div class=\"d-flex flex-column flex-md-row align-items-center
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 var AppComponent = /** @class */ (function () {
@@ -70,8 +129,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
         })
     ], AppComponent);
     return AppComponent;
@@ -91,15 +150,26 @@ var AppComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index/index.component */ "./src/app/index/index.component.ts");
+/* harmony import */ var _index_head_index_head_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index-head/index-head.component */ "./src/app/index-head/index-head.component.ts");
+/* harmony import */ var _index_content_index_content_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index-content/index-content.component */ "./src/app/index-content/index-content.component.ts");
+/* harmony import */ var _index_head_content_index_head_content_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index-head-content/index-head-content.component */ "./src/app/index-head-content/index-head-content.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+
 
 
 
@@ -109,7 +179,11 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+                _index_index_component__WEBPACK_IMPORTED_MODULE_3__["IndexComponent"],
+                _index_head_index_head_component__WEBPACK_IMPORTED_MODULE_4__["IndexHeadComponent"],
+                _index_content_index_content_component__WEBPACK_IMPORTED_MODULE_5__["IndexContentComponent"],
+                _index_head_content_index_head_content_component__WEBPACK_IMPORTED_MODULE_6__["IndexHeadContentComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]
@@ -119,6 +193,234 @@ var AppModule = /** @class */ (function () {
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/index-content/index-content.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/index-content/index-content.component.css ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWNvbnRlbnQvaW5kZXgtY29udGVudC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/index-content/index-content.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/index-content/index-content.component.ts ***!
+  \**********************************************************/
+/*! exports provided: IndexContentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexContentComponent", function() { return IndexContentComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var IndexContentComponent = /** @class */ (function () {
+    function IndexContentComponent() {
+    }
+    IndexContentComponent.prototype.ngOnInit = function () {
+    };
+    IndexContentComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-index-content',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./index-content.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-content/index-content.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./index-content.component.css */ "./src/app/index-content/index-content.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], IndexContentComponent);
+    return IndexContentComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/index-head-content/index-head-content.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/index-head-content/index-head-content.component.css ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWhlYWQtY29udGVudC9pbmRleC1oZWFkLWNvbnRlbnQuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/index-head-content/index-head-content.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/index-head-content/index-head-content.component.ts ***!
+  \********************************************************************/
+/*! exports provided: IndexHeadContentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexHeadContentComponent", function() { return IndexHeadContentComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var IndexHeadContentComponent = /** @class */ (function () {
+    function IndexHeadContentComponent() {
+    }
+    IndexHeadContentComponent.prototype.ngOnInit = function () {
+    };
+    IndexHeadContentComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-index-head-content',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./index-head-content.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-head-content/index-head-content.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./index-head-content.component.css */ "./src/app/index-head-content/index-head-content.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], IndexHeadContentComponent);
+    return IndexHeadContentComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/index-head/index-head.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/index-head/index-head.component.css ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWhlYWQvaW5kZXgtaGVhZC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/index-head/index-head.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/index-head/index-head.component.ts ***!
+  \****************************************************/
+/*! exports provided: IndexHeadComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexHeadComponent", function() { return IndexHeadComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var IndexHeadComponent = /** @class */ (function () {
+    function IndexHeadComponent() {
+    }
+    IndexHeadComponent.prototype.ngOnInit = function () {
+    };
+    IndexHeadComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-index-head',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./index-head.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/index-head/index-head.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./index-head.component.css */ "./src/app/index-head/index-head.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], IndexHeadComponent);
+    return IndexHeadComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/index/index.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/index/index.component.css ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4L2luZGV4LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/index/index.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/index/index.component.ts ***!
+  \******************************************/
+/*! exports provided: IndexComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexComponent", function() { return IndexComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var IndexComponent = /** @class */ (function () {
+    function IndexComponent() {
+    }
+    IndexComponent.prototype.ngOnInit = function () {
+    };
+    IndexComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-index',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./index.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/index/index.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./index.component.css */ "./src/app/index/index.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], IndexComponent);
+    return IndexComponent;
 }());
 
 
@@ -138,6 +440,9 @@ __webpack_require__.r(__webpack_exports__);
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 var environment = {
     production: false
 };
@@ -161,10 +466,13 @@ var environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/__ivy_ngcc__/fesm5/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 
@@ -185,7 +493,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/kbuczynski/Documents/Project/webkb_static/client/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/kbuczynski/Documents/personal-website/client/src/main.ts */"./src/main.ts");
 
 
 /***/ })
