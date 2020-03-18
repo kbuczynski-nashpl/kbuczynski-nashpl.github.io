@@ -1,6 +1,6 @@
 .f-media-btn {
   background-color: #ffffff00;
-  color: #1747c1;
+  color: #00ffd1;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -11,6 +11,16 @@
 
 body {
   font-family: 'Open Sans', sans-serif !important;
+  font-size: 10px;
+
+  .navbar {
+    position: absolute;
+    z-index: 999;
+  }
+
+  .card {
+    height: 30rem;
+  }
 }
 
 .webkb_logo {
@@ -75,6 +85,29 @@ body {
 .bg-nav {
   background-color: #e6e5e521 !important;
   z-index: 1000;
+}
+
+.personal-text {
+  font-family: 'Sen', sans-serif;
+  color: black;
+  text-shadow: none;
+
+@media screen and (min-width: $)
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+
+  h4 {
+    font-weight: bold;
+  }
+}
+
+.hyperlinks {
+  text-shadow: none;
+}
+
+.personal-avatar {
+  min-height: 19rem;
+  max-height: 19rem;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
