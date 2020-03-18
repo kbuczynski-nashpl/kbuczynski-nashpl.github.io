@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container col-12 col-md-12 page-content-one-background wrapper d-flex d-md-flex justify-content-center\">\n  <div class=\"p-2 row d-flex justify-content-center justify-content-md-center my-auto p-3\">\n    <div class=\"col col-md align-items-center align-items-md-center\">\n      <div class=\"card mx-auto my-auto h-100\">\n        <div class=\"card-body\">\n          <div class=\"container col mobile-view h-100\">\n            <div class=\"row align-items-center h-100\">\n              <div class=\"col-md-3 text-center d-none d-lg-block\">\n                <img src=\"assets/images/kb_img.png\" atl=\"kb_img\" class=\"personal-avatar\">\n              </div>\n              <div class=\"col-md personal-text\">\n               \n                <h4>Hi! My name is Krzysztof Buczynski.</h4> \n                <p>\n                  I am a full stack developer with Computer Science degree. <br> In past I have took part in smaller and bigger programing project granding me few years of experience as a developer. \n                </p>\n                <p>\n                  I my main programming lanauge of choice is <strong>PHP</strong>.<br>I also have experience or basic skills in HTML, CSS, JQuery, ES6, NodeJS, Angular/TypeScript,\n                  Java, MySQL, Bootstrap, Unix OS and many more. Strong positive confident problem solver with leadership skills.\n              </p>\n              </div>\n              <div class=\"col-md-3 hyperlinks flex-column flex-md-column text-left p-md-0\">\n                <div class=\"p-2\">\n                  <a href=\"https://www.facebook.com/profile.php?id=100005542480415\">\n                    <i class=\"fab fa-facebook\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://twitter.com/NashPL\">\n                    <i class=\"fab fa-twitter\"></i> @NashPL\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://www.instagram.com/kbuczynski_nashpl/?hl=en\">\n                    <i class=\"fab fa-instagram\"></i> kbuczynski_nashpl\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://www.linkedin.com/in/krzysztof-buczynski-59008b152/\">\n                    <i class=\"fab fa-linkedin\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://github.com/kbuczynski-nashpl\">\n                    <i class=\"fab fa-github\"></i> kbuczynski-nashpl\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container col-12 col-md-12 page-header-background wrapper d-flex d-md-flex justify-content-center\">\n  <div class=\"p-2 row d-flex justify-content-center justify-content-md-center my-auto p-3\">\n    <div class=\"col col-md align-items-center align-items-md-center\">\n      <div class=\"card mx-auto my-auto h-100\">\n        <div class=\"card-body\">\n          <div class=\"container col mobile-view h-100\">\n            <div class=\"row align-items-center h-100\">\n              <div class=\"col-md-3 text-center d-none d-lg-block\">\n                <img src=\"assets/images/kb_img.png\" atl=\"kb_img\" class=\"personal-avatar\">\n              </div>\n              <div class=\"col-md personal-text\">\n               \n                <h4>Hi! My name is Krzysztof Buczynski.</h4> \n                <p>\n                  I am a full stack developer with Computer Science degree. <br> In past I have took part in smaller and bigger programing project granding me few years of experience as a developer. \n                </p>\n                <p>\n                  I my main programming lanauge of choice is <strong>PHP</strong>.<br>I also have experience or basic skills in HTML, CSS, JQuery, ES6, NodeJS, Angular/TypeScript,\n                  Java, MySQL, Bootstrap, Unix OS and many more. Strong positive confident problem solver with leadership skills.\n              </p>\n              </div>\n              <div class=\"col-md-3 hyperlinks flex-column flex-md-column text-left p-md-0\">\n                <div class=\"p-2\">\n                  <a href=\"https://www.facebook.com/profile.php?id=100005542480415\">\n                    <i class=\"fab fa-facebook\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://twitter.com/NashPL\">\n                    <i class=\"fab fa-twitter\"></i> @NashPL\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://www.instagram.com/kbuczynski_nashpl/?hl=en\">\n                    <i class=\"fab fa-instagram\"></i> kbuczynski_nashpl\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://www.linkedin.com/in/krzysztof-buczynski-59008b152/\">\n                    <i class=\"fab fa-linkedin\"></i> Krzysztof Buczynski\n                  </a>\n                </div>\n                <div class=\"p-2\">\n                  <a href=\"https://github.com/kbuczynski-nashpl\">\n                    <i class=\"fab fa-github\"></i> kbuczynski-nashpl\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand container col-12 col-md-12 navbar-light\">\n  <div class=\"collapse navbar-collapse justify-content-end\" id=\"navbarToggler\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.facebook.com/profile.php?id=100005542480415\">\n          <i class=\"fab fa-facebook-f fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn\" href=\"https://twitter.com/NashPL\">\n          <i class=\"fab fa-twitter fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.instagram.com/kbuczynski_nashpl/?hl=en\">\n          <i class=\"fab fa-instagram fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.linkedin.com/in/krzysztof-buczynski-59008b152/\">\n          <i class=\"fab fa-linkedin-in fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://github.com/kbuczynski-nashpl\">\n          <i class=\"fab fa-github fa-2x \"></i>\n        </a>\n      </li>\n    </ul>\n  </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-sm container col-12 col-md-12 navbar-light\">\n  <div class=\"collapse navbar-collapse justify-content-end\" id=\"navbarToggler\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.facebook.com/profile.php?id=100005542480415\">\n          <i class=\"fab fa-facebook-f fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn\" href=\"https://twitter.com/NashPL\">\n          <i class=\"fab fa-twitter fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.instagram.com/kbuczynski_nashpl/?hl=en\">\n          <i class=\"fab fa-instagram fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://www.linkedin.com/in/krzysztof-buczynski-59008b152/\">\n          <i class=\"fab fa-linkedin-in fa-2x \"></i>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"col-md-2 f-media-btn \" href=\"https://github.com/kbuczynski-nashpl\">\n          <i class=\"fab fa-github fa-2x \"></i>\n        </a>\n      </li>\n    </ul>\n  </div>\n</nav>\n");
 
 /***/ }),
 
@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-index-head></app-index-head>\n<app-index-head-content></app-index-head-content>\n<app-index-content></app-index-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-index-head></app-index-head>\n<app-index-content></app-index-content>\n");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvYXBwLmNvbXBvbmVudC5jc3MifQ== */");
 
 /***/ }),
 
@@ -208,7 +208,7 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWNvbnRlbnQvaW5kZXgtY29udGVudC5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvaW5kZXgtY29udGVudC9pbmRleC1jb250ZW50LmNvbXBvbmVudC5jc3MifQ== */");
 
 /***/ }),
 
@@ -265,7 +265,7 @@ var IndexContentComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWhlYWQtY29udGVudC9pbmRleC1oZWFkLWNvbnRlbnQuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvaW5kZXgtaGVhZC1jb250ZW50L2luZGV4LWhlYWQtY29udGVudC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -322,7 +322,7 @@ var IndexHeadContentComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4LWhlYWQvaW5kZXgtaGVhZC5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvaW5kZXgtaGVhZC9pbmRleC1oZWFkLmNvbXBvbmVudC5jc3MifQ== */");
 
 /***/ }),
 
@@ -379,7 +379,7 @@ var IndexHeadComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZGV4L2luZGV4LmNvbXBvbmVudC5jc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvaW5kZXgvaW5kZXguY29tcG9uZW50LmNzcyJ9 */");
 
 /***/ }),
 
