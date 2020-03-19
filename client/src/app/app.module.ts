@@ -4,16 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { IndexHeadComponent } from './index-head/index-head.component';
-import { IndexContentComponent } from './index-content/index-content.component';
-import { IndexHeadContentComponent } from './index-head-content/index-head-content.component';
+import { IndexAboutmeComponent } from './index-aboutme/index-aboutme.component';
+import { IndexProjectsComponent } from './index-projects/index-projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     IndexHeadComponent,
-    IndexContentComponent,
-    IndexHeadContentComponent
+    IndexAboutmeComponent,
+    IndexProjectsComponent,
   ],
   imports: [
     BrowserModule
