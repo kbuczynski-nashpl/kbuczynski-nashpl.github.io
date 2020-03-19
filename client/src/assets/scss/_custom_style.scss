@@ -9,21 +9,12 @@
   margin: 5px 2px;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 10px;
+.navbar-bottom {
+  flex-flow: row nowrap;
+  justify-content: flex-start !important;
 
-  .navbar {
-    position: absolute;
-    z-index: 999;
-  }
-
-  .card {
-    background: #ffffffe0;
-    
-    @media screen and (min-width: $grid-breakpoint-lg) {
-      width: 55rem;
-    }
+  .navbar-nav {
+    flex-direction: row;
   }
 }
 
@@ -59,11 +50,6 @@ body {
   background-image: url('../images/brick.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .profile-card {

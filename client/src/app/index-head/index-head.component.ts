@@ -9,7 +9,5 @@ export class IndexHeadComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }
