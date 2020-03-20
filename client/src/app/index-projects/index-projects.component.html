@@ -1,3 +1,20 @@
-<div id='index-2' class="container-fluid page-project-background wrapper d-flex d-md-flex justify-content-center align-items-center">
+<div id='index-2' class="container-fluid page-project-background wrapper align-items-center d-grid">
+    <mat-grid-list 
+        [responsive]="responsive"
+        (responsiveColsChange)="cols = $event"
+        rowHeight="5rem"
+        gutterSize="0.8rem">
+        <mat-grid-tile 
+            class="container-fluid" 
+            *ngFor="let tile of tiles" 
+            [colspan]="tile.cols" 
+            [rowspan]="tile.rows"
+            [style.background]="tile.color"
+        >
+        <mat-grid-header>
+            {{tile.title}}
+        </mat-grid-header>
 
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>

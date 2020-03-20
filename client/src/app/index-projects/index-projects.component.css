@@ -1,5 +1,32 @@
 .page-project-background {
-    background-image: url('/assets/images/brick.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-image: url("/assets/images/brick.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.mat-figure {
+  align-items: left !important;
+  justify-content: start !important;
+}
+
+mat-grid-list {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+::ng-deep .mat-figure {
+  align-items: start !important;
+  justify-content: start !important;
+  padding: 2rem !important;
+  color: black;
+}
+
+::ng-deep mat-grid-header {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.2remw;
+}
