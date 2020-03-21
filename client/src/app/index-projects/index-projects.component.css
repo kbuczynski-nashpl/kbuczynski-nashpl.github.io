@@ -28,14 +28,18 @@ mat-grid-list {
 
 ::ng-deep button.mat-primary {
   margin-right: 1rem;
-  margin-top: 1rem;
   margin-left: 0;
-  margin-bottom: 1rem;
   color: #00438c !important;
   min-width: 10srem;
   font-size: 1.2rem;
   padding: 0.5rem;
   border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  ::ng-deep button.mat-primary {
+
+  }
 }
 
 ::ng-deep button.mat-primary:hover {
@@ -54,14 +58,17 @@ mat-grid-list {
   color: black;
   font-weight: 500;
   text-shadow: none;
+  height: 2rem;
+  margin-top: 0.5rem;
 }
 
-.card-content > .row >.h1 {
+.card-content > .header-h1 {
   font-weight: bold;
   font-size: 1.8rem;
 }
 
-.card-content > .row > .body {
+.card-content > .body {
+  height: 4rem;
 }
 
 .card-content > .row  > .footer {
