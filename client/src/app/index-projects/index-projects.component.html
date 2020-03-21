@@ -1,20 +1,35 @@
 <div id='index-2' class="container-fluid page-project-background wrapper align-items-center d-grid">
-    <mat-grid-list 
-        [responsive]="responsive"
-        (responsiveColsChange)="cols = $event"
-        rowHeight="5rem"
+    <mat-grid-list [responsive]="responsive" (responsiveColsChange)="cols = $event" rowHeight="5rem"
         gutterSize="0.8rem">
-        <mat-grid-tile 
-            class="container-fluid" 
-            *ngFor="let tile of tiles" 
-            [colspan]="tile.cols" 
-            [rowspan]="tile.rows"
-            [style.background]="tile.color"
-        >
-        <mat-grid-header>
-            {{tile.title}}
-        </mat-grid-header>
-
+        <mat-grid-tile class="container-fluid" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+            [style.background]="tile.color">
+            <div class="row col card-content h-100">
+                <div class="row w-100">
+                    <div class="col-12 h1">
+                        {{tile.title}}
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col body">
+                        {{tile.text}}
+                    </div>
+                </div>
+                <div class="row w-100 align-items-center d-grid">
+                    <div class="col footer" *ngIf="tile.tech != undefined">
+                        <div>
+                            <button *ngFor="let tech of tile.tech" (click)="clickTech(tech)" mat-stroked-button
+                                color="{{getTechColor(tech)}}">
+                                <fa-icon [icon]="getTechIcon(tech)" size="2x"></fa-icon>
+                            </button>
+                        </div>
+                        <div>
+                            <button *ngIf="tile.repostatus === false" mat-stroked-button disabled>
+                                View on Request
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </mat-grid-tile>
     </mat-grid-list>
 </div>

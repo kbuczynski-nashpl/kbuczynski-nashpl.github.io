@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.module';
 
@@ -24,9 +27,11 @@ import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.m
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FontAwesomeModule,
     MatCardModule,
     MatGridListModule,
-    MatGridListResponsiveModule
+    MatGridListResponsiveModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

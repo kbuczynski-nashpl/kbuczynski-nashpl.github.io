@@ -18,9 +18,9 @@ import { MatGridList } from "@angular/material/grid-list";
 function calCols(matchedBreakpoint: MatchedBreakpoint): number {
   switch (matchedBreakpoint) {
     case MatchedBreakpoint.XLarge:
-      return 4;
+      return 3;
     case MatchedBreakpoint.Large:
-      return 4;
+      return 3;
     case MatchedBreakpoint.Medium:
       return 2;
     case MatchedBreakpoint.Small:
