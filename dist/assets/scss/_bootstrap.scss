@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 10px;
+}
+
+.card {
+  background: #ffffffe0;
+
+  @media screen and (min-width: $grid-breakpoint-lg) {
+    width: 55rem;
+  }
+}
+
+.navbar.navbar-dark {
+  background: #69565642;
+  min-height: 5rem;
+}
+
+.nav-item {
+  min-width: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+
+  a {
+    font-size: 0.9rem;
+    color: #00ffd1;
+  }
+
+  a:hover {
+    color: white;  
+  }
+}
