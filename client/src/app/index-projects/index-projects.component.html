@@ -1,0 +1,29 @@
+<div id='index-2' class="container-fluid page-project-background wrapper align-items-center d-grid">
+    <mat-grid-list [responsive]="responsive" (responsiveColsChange)="cols = $event" rowHeight="4.6rem"
+        gutterSize="0.8rem">
+        <mat-grid-tile class="container-fluid" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+            [style.background]="tile.color">
+            <div class="card-content d-flex flex-column w-100">
+                <div class="header-h1 p-2">
+                    {{tile.title}}
+                </div>
+                <mat-divider></mat-divider>
+                <div class="body d-flex flex-row align-items-center p-2">
+                    {{tile.text}}
+                </div>
+                <mat-divider></mat-divider>
+                <div class="footer d-flex flex-row" *ngIf="tile.tech != undefined">
+                    <button class="d-flex flex-row align-items-center justify-content-start" *ngFor="let tech of tile.tech" (click)="clickTech(tech)" mat-stroked-button
+                        color="{{getTechColor(tech)}}">
+                        <fa-icon [icon]="getTechIcon(tech)" size="2x"></fa-icon>
+                    </button>
+                </div>
+                <div class="footer d-flex flex-row align-items-center justify-content-lg-end" *ngIf="tile.repostatus === false">
+                    <button class="d-flex flex-row align-items-center justify-content-lg-end" mat-stroked-button disabled>
+                        View on Request
+                    </button>
+                </div>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
