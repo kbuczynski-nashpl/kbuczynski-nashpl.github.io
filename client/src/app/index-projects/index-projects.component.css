@@ -4,6 +4,14 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 425px) {
+  .page-project-background {
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
 .d-grid {
   display: grid;
 }
@@ -38,7 +46,6 @@ mat-grid-list {
 
 @media screen and (min-width: 1024px) {
   ::ng-deep button.mat-primary {
-
   }
 }
 
@@ -71,7 +78,7 @@ mat-grid-list {
   height: 4rem;
 }
 
-.card-content > .row  > .footer {
+.card-content > .row > .footer {
 }
 
 .card-content > .row > .footer > h5 {
