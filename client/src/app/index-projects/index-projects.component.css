@@ -44,11 +44,6 @@ mat-grid-list {
   border: none;
 }
 
-@media screen and (min-width: 1024px) {
-  ::ng-deep button.mat-primary {
-  }
-}
-
 ::ng-deep button.mat-primary:hover {
   color: #3f9ba0 !important;
 }
@@ -77,9 +72,6 @@ mat-grid-list {
 .card-content > .body {
   height: 4rem;
 }
-
-.card-content > .row > .footer {
--}
 
 .card-content > .row > .footer > h5 {
   font-size: 1rem;
