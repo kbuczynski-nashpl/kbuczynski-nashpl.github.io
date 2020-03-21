@@ -1,4 +1,4 @@
-<div id='index-2' class="container-fluid page-project-background wrapper align-items-center d-grid">
+<div id='index-2' class="pt-5 container-fluid page-project-background wrapper align-items-center d-grid">
     <mat-grid-list [responsive]="responsive" (responsiveColsChange)="cols = $event" rowHeight="4.6rem"
         gutterSize="0.8rem">
         <mat-grid-tile class="container-fluid" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
@@ -13,13 +13,16 @@
                 </div>
                 <mat-divider></mat-divider>
                 <div class="footer d-flex flex-row" *ngIf="tile.tech != undefined">
-                    <button class="d-flex flex-row align-items-center justify-content-start" *ngFor="let tech of tile.tech" (click)="clickTech(tech)" mat-stroked-button
+                    <button class="d-flex flex-row align-items-center justify-content-start"
+                        *ngFor="let tech of tile.tech" (click)="clickTech(tech)" mat-stroked-button
                         color="{{getTechColor(tech)}}">
                         <fa-icon [icon]="getTechIcon(tech)" size="2x"></fa-icon>
                     </button>
                 </div>
-                <div class="footer d-flex flex-row align-items-center justify-content-lg-end" *ngIf="tile.repostatus === false">
-                    <button class="d-flex flex-row align-items-center justify-content-lg-end" mat-stroked-button disabled>
+                <div class="footer d-flex flex-row align-items-center justify-content-lg-end"
+                    *ngIf="tile.repostatus === false">
+                    <button class="d-flex flex-row align-items-center justify-content-lg-end" mat-stroked-button
+                        disabled>
                         View on Request
                     </button>
                 </div>
