@@ -1,7 +1,7 @@
 <div id='index-2' class="container-fluid page-project-background wrapper align-items-center d-grid">
     <mat-grid-list [responsive]="responsive" (responsiveColsChange)="cols = $event" rowHeight="4.6rem"
         gutterSize="0.8rem">
-        <mat-grid-tile class="container-fluid" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        <mat-grid-tile appMaterialElevation class="container-fluid" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
             [style.background]="tile.color">
             <div class="card-content d-flex flex-column w-100">
                 <div class="header-h1 p-2">
