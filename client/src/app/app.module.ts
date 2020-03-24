@@ -16,6 +16,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.module';
+import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.m
     IndexHeadComponent,
     IndexAboutmeComponent,
     IndexProjectsComponent,
+    MaterialElevationDirective
   ],
   imports: [
     BrowserModule,
