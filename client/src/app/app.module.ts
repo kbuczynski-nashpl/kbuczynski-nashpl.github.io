@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatExpansionModule } from '@angular/material/expansion'
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -37,7 +38,8 @@ import { IndexWorkepxerienceComponent } from './index-workepxerience/index-worke
     MatGridListModule,
     MatGridListResponsiveModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
