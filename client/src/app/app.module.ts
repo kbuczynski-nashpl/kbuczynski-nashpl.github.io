@@ -17,6 +17,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.module';
 import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
+import { IndexWorkepxerienceComponent } from './index-workepxerience/index-workepxerience.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
     IndexHeadComponent,
     IndexAboutmeComponent,
     IndexProjectsComponent,
-    MaterialElevationDirective
+    MaterialElevationDirective,
+    IndexWorkepxerienceComponent,
   ],
   imports: [
     BrowserModule,
