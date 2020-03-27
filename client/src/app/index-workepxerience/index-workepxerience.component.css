@@ -2,14 +2,11 @@
   background-image: url("/assets/images/work-experience.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 8rem;
+  align-items: flex-start !important;
 }
 
 @media screen and (max-width: 425px) {
-  .page-workexperience-background {
-    padding-top: 8rem;
-    align-items: flex-start !important;
-  }
-
   .mat-expansion-panel-header {
     height: 45px !important;
   }
@@ -32,7 +29,11 @@
 }
 
 .mat-expansion-panel-header-description {
-  width: 35%;
+  width: 40%;
   flex-grow: unset;
 }
 
+.experience-h1 {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
