@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
 
 @import "./_custom_variable.scss";
-@import "./_custom_style.scss";
 
 @import "./../../../node_modules/bootstrap/scss/bootstrap";
-@import "./custom_mat";
 
-@import "./bootstrap";
+@import "./custom_global";
+@import "./components/index-nav";
+@import "./components/index-aboutme";
+@import "./components/index-projects";
+@import "./components/index-workexperience";

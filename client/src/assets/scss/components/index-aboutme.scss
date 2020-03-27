@@ -1,0 +1,46 @@
+.personal-text {
+  font-family: "Sen", sans-serif;
+  color: $black;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+
+  h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+}
+
+.hyperlinks {
+  color: $blue-primary;
+  text-shadow: none;
+  font-size: 0.9rem;
+  text-decoration: underline;
+
+  a {
+    color: $blue-primary;
+  }
+
+  a:hover {
+    color: $light-blue-primary;
+  }
+}
+
+.personal-avatar {
+  height: 12rem;
+}
+
+@media (max-width: $grid-breakpoint-md) {
+  .profile-image {
+    display: none;
+  }
+  .page-content-one-background {
+    max-width: 100%;
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+  .mobile-view {
+    font-size: 1.1rem;
+  }
+}

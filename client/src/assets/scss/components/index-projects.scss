@@ -1,0 +1,73 @@
+.page-project-background {
+  background-image: url("/assets/images/brick.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: $grid-breakpoint-md) {
+  .page-project-background {
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+mat-grid-list {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.mat-figure {
+  align-items: left !important;
+  justify-content: start !important;
+}
+
+.mat-figure {
+  align-items: start !important;
+  justify-content: start !important;
+  padding: 2rem !important;
+  color: $black;
+}
+
+.mat-stroked-button.mat-primary {
+  color: $blue-primary;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.mat-stroked-button.mat-primary:hover {
+  color: $light-blue-primary;
+}
+
+.mat-stroked-button[disabled][disabled] {
+  background: unset;
+  border: 0.05rem solid $black;
+  border-radius: 0;
+  color: $black;
+  font-weight: 500;
+  text-shadow: none;
+  height: 2rem;
+}
+
+.mat-stroked-button:hover {
+  background: $white;
+  border: none;
+}
+
+.card-content > .header-h1 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.card-content > .body {
+  height: 4rem;
+}
+
+.card-content > .row > .footer > h5 {
+  font-size: 1rem;
+}

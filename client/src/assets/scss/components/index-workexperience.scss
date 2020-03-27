@@ -1,0 +1,39 @@
+.page-workexperience-background {
+  background-image: url("/assets/images/work-experience.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8rem;
+  align-items: flex-start !important;
+}
+
+@media screen and (max-width: $grid-breakpoint-md) {
+  .mat-expansion-panel-header {
+    height: 4.5rem !important;
+  }
+
+  .mat-expansion-panel-header.mat-expanded {
+    height: 6.4rem !important;
+  }
+}
+
+.mat-accordion .mat-expansion-panel {
+    margin-bottom: 1rem;
+}
+
+.mat-expansion-panel-header-title {
+  align-items: center;
+}
+
+.mat-accordion {
+  width: 90vw;
+}
+
+.mat-expansion-panel-header-description {
+  width: 40vw;
+  flex-grow: unset !important;
+}
+
+.experience-h1 {
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem 0.1rem$black;
+}

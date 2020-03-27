@@ -13,7 +13,7 @@
                 </div>
                 <mat-divider></mat-divider>
                 <div class="footer d-flex flex-row" *ngIf="tile.tech != undefined">
-                    <button class="d-flex flex-row align-items-center justify-content-start"
+                    <button
                         *ngFor="let tech of tile.tech" (click)="clickTech(tech)" mat-stroked-button
                         color="{{getTechColor(tech)}}">
                         <fa-icon [icon]="getTechIcon(tech)" size="2x"></fa-icon>

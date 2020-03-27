@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 10px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.card {
+  background: $black-transparent;
+
+  @media screen and (min-width: $grid-breakpoint-lg) {
+    width: 55rem;
+  }
+}
+
+.parent {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100vh;
+  padding-right: 10px;
+  padding-left: 10px;
+  z-index: 10;
+  color: $white !important;
+}
+
+.mat-elevation-z16 {
+  box-shadow: 0 0 5px 5px $black-transparent, 
+              0 0 2px 2px $black-transparent, 
+              0 0 5px 5px $gray-transparent !important;
+}
