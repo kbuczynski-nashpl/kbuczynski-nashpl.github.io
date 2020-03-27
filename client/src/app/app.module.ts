@@ -12,11 +12,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatExpansionModule } from '@angular/material/expansion'
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { MatGridListResponsiveModule } from './../lib/mat-grid-list-responsive.module';
 import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
+import { IndexWorkepxerienceComponent } from './index-workepxerience/index-workepxerience.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
     IndexHeadComponent,
     IndexAboutmeComponent,
     IndexProjectsComponent,
-    MaterialElevationDirective
+    MaterialElevationDirective,
+    IndexWorkepxerienceComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { MaterialElevationDirective } from '../lib/mat-elevetion.directive';
     MatGridListModule,
     MatGridListResponsiveModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
