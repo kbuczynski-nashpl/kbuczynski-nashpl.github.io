@@ -23,7 +23,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "./src/assets/css/style.min.css"
+              "./src/assets/scss/style.scss"
             ],
             "scripts": [
               "../client/node_modules/jquery/dist/jquery.min.js",

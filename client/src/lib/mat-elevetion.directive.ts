@@ -1,10 +1,10 @@
-import  { Directive,
-          OnChanges,
-          Input,
-          SimpleChanges,
-          HostListener,
-          Renderer2,
-          ElementRef
+import { Directive,
+         OnChanges,
+         Input,
+         SimpleChanges,
+         HostListener,
+         Renderer2,
+         ElementRef
         } from '@angular/core';
 
 @Directive({
@@ -14,7 +14,7 @@ export class MaterialElevationDirective implements OnChanges {
 
     @Input()
     defaultElevation = 2;
-    
+
     @Input()
     raisedElevation = 16;
 

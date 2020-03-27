@@ -8,12 +8,20 @@ import {
   Output,
   EventEmitter,
   SimpleChanges
-} from "@angular/core";
+} from '@angular/core';
 
-import { Observable, BehaviorSubject, Subscription, merge, of } from "rxjs";
-import { filter, switchMap, map } from "rxjs/operators";
-import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
-import { MatGridList } from "@angular/material/grid-list";
+import { Observable, BehaviorSubject, Subscription, merge, of } from 'rxjs';
+import { filter, switchMap, map } from 'rxjs/operators';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { MatGridList } from '@angular/material/grid-list';
+
+enum MatchedBreakpoint {
+  XLarge,
+  Large,
+  Medium,
+  Small,
+  XSmall
+}
 
 function calCols(matchedBreakpoint: MatchedBreakpoint): number {
   switch (matchedBreakpoint) {
@@ -31,26 +39,18 @@ function calCols(matchedBreakpoint: MatchedBreakpoint): number {
   }
 }
 
-enum MatchedBreakpoint {
-  XLarge,
-  Large,
-  Medium,
-  Small,
-  XSmall
-}
-
 @Directive({
-  selector: "mat-grid-list[responsive]",
-  exportAs: "matGridListResponsive"
+  selector: 'mat-grid-list[responsive]',
+  exportAs: 'matGridListResponsive'
 })
 
-export class MatGridListResponsive implements OnInit, OnChanges, OnDestroy {
-  @Input("responsive") responsive = false;
+export class MatGridListResponsiveDirective implements OnInit, OnChanges, OnDestroy {
+  @Input('responsive') responsive = false;
   private responsive$: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(
     this.responsive
   );
 
-  @Output("responsiveColsChange") colsChange: EventEmitter<number> = new EventEmitter<number>();
+  @Output('responsiveColsChange') colsChange: EventEmitter<number> = new EventEmitter<number>();
 
   private breakPointObservable: Observable<MatchedBreakpoint>;
   private breakPointObserverSubscription = Subscription.EMPTY;
