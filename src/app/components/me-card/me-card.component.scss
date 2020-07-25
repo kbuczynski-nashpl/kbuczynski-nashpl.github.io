@@ -1,0 +1,34 @@
+.me-card {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px);
+  border-radius: 0;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  box-shadow: -1px 4px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+
+  mat-card-content {
+    display: flex !important;
+  }
+
+  .mat-card-image {
+    margin: auto;
+    width: calc(100% + 16px);
+  }
+
+  .hyperlinks {
+    margin: auto;
+
+    a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 1rem;
+      color: #319e8c;
+      font-weight: bold;
+
+      fa-icon {
+        color: #0b504a;
+      }
+    }
+  }
+}
