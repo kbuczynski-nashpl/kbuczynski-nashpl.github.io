@@ -1,11 +1,12 @@
 .me-card {
-  background-color: rgba(255, 255, 255, .15);
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(10px);
   border-radius: 0;
   font-size: 1.4rem;
   line-height: 1.6rem;
 
-  box-shadow: -1px 4px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+  box-shadow: 2px 5px 9px 11px rgba(0, 0, 0, 0.67) !important;
 
   mat-card-content {
     display: flex !important;
@@ -23,12 +24,8 @@
       padding-top: 5px;
       padding-bottom: 5px;
       font-size: 1rem;
-      color: #319e8c;
+      color: #48e4ca;;
       font-weight: bold;
-
-      fa-icon {
-        color: #0b504a;
-      }
     }
   }
 }
