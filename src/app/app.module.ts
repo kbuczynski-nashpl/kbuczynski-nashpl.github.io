@@ -9,12 +9,14 @@ import { NgbModule }               from '@ng-bootstrap/ng-bootstrap';
 import { MeCardComponent }         from './components/me-card/me-card.component';
 
 import { MatCardModule } from "@angular/material/card";
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule(
   {
     declarations: [
       AppComponent,
-      MeCardComponent
+      MeCardComponent,
+      NavComponent
     ],
     imports:      [
       BrowserModule,

@@ -1,5 +1,11 @@
 section.section-1 {
-  background-image: url("/assets/images/manchester.jpg");
+  background-image: url("/assets/images/manchester-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.section-2 {
+  background-image: url("/assets/images/manchester-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
