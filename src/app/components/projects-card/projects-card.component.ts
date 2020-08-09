@@ -51,7 +51,14 @@ export class ProjectsCardComponent implements OnInit {
         stack: [faLaravel,
                 faPhp],
         href: 'https://github.com/kbuczynski-nashpl/Wikipedia-API'
-      }
+      },
+      {
+        name:  'Angular-Login',
+        desc:  'Implementation of Login/Signup page using Angular',
+        stack: [faAngular,
+                faBootstrap],
+        href:  'https://github.com/kbuczynski-nashpl/Angular-LoginPage',
+      },
     ]
   }
 
