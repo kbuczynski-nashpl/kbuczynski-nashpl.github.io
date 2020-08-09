@@ -1,21 +1,17 @@
-<div class="projects container-fluid">
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-12" *ngFor="let project of projects">
-      <mat-card class="project-card">
-        <p class="mat-h2">{{project.name}}</p>
-        <mat-card-content class="mat-h4">{{project.desc}}</mat-card-content>
-        <hr>
-        <mat-card-content>
-          <div class="row">
-            <div class="px-3" *ngFor="let icon of project.stack">
-              <fa-icon [icon]="icon"></fa-icon>
-            </div>
-          </div>
-        </mat-card-content>
-        <div class="text-right hyperlinks">
-          <a target="_blank" href="{{project.href}}">Go to project</a>
+<div class="projects">
+  <mat-card class="project-card col-12" *ngFor="let project of projects">
+    <p class="mat-h2">{{project.name}}</p>
+    <mat-card-content class="mat-h4">{{project.desc}}</mat-card-content>
+    <hr>
+    <mat-card-content>
+      <div class="row">
+        <div class="px-3" *ngFor="let icon of project.stack">
+          <fa-icon [icon]="icon"></fa-icon>
         </div>
-      </mat-card>
+      </div>
+    </mat-card-content>
+    <div class="text-right hyperlinks">
+      <a target="_blank" href="{{project.href}}">Go to project</a>
     </div>
-  </div>
+  </mat-card>
 </div>
