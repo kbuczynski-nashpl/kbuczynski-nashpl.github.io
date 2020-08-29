@@ -59,6 +59,12 @@ export class ProjectsCardComponent implements OnInit {
                 faBootstrap],
         href:  'https://github.com/kbuczynski-nashpl/Angular-LoginPage',
       },
+      {
+        name: 'Angular-Menu-Example',
+        desc: 'Implementation of Top/Side menu with a clocka nd notification dropdown',
+        stack: [faAngular],
+        href: 'https://github.com/kbuczynski-nashpl/Angular-Menu-Example/'
+      }
     ]
   }
 
