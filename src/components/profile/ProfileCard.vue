@@ -42,7 +42,7 @@ export default {
     data: function () {
         return {
             education_name: "The Manchester Metropolitan University",
-            workspace_name: "Build Empire Ltd.",
+            workspace_name: "BuildEmpire Ltd.",
             education_logo: "https://media-exp1.licdn.com/dms/image/C4D0BAQEm8_TYqG-_YA/company-logo_100_100/0/1567408822257?e=1641427200&v=beta&t=G53l_qqLavp7eOUN-Ky1F_CpcU2Ob9-9t48D5e25I2M",
             workspace_logo: "https://media-exp1.licdn.com/dms/image/C4D0BAQE6JEH3Vlaz4w/company-logo_100_100/0/1623223802115?e=1641427200&v=beta&t=1jzn95O3Ej3Ro0S815jGA70eLSN5wwrQPvbCW-NqkH8",
             about_me_country: "Manchester, England, United Kingdom",
@@ -91,8 +91,17 @@ export default {
                 font-weight: $font-weight-bold;
                 text-align: left;
                 width: 15rem;
+                font-size: 1rem;
+
+                @media screen and (width: 540px) {
+                    width: 25rem;
+                }
 
                 @media screen and (max-width: 320px) {
+                    width: 12rem;
+                }
+
+                @media screen and (max-width: 280px) {
                     width: 10rem;
                 }
             }
