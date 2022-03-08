@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Navigation',
+    name: 'NavigationComponent',
     props: {
         'title': {
             type: String,

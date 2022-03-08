@@ -2,14 +2,14 @@
     <div id="app">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <Navigation/>
+        <NavigationComponent/>
         <MainPage/>
-        <Navigation/>
+        <NavigationComponent/>
     </div>
 </template>
 
 <script>
-import Navigation from "@/components/navigation/Navigation";
+import NavigationComponent from "@/components/navigation/NavigationComponent";
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -19,7 +19,7 @@ export default {
     name: 'App',
     components: {
         MainPage,
-        Navigation
+        NavigationComponent
     }
 }
 </script>
